@@ -1,11 +1,11 @@
 {
   "name": "Extensão FCM",
   "description": "FCM significa 'Freelance Cassapula Monteiro' e ela serve para auxiliar a escrita de propostas em sites de freelance",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting"],
   "action": {
-    "chrome.windows.create": "FCM.html",
+    "default_popup": "FCM.html",
     "default_icon": "icons/FCM_extension.png"
   }
 }
