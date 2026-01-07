@@ -117,7 +117,7 @@ const p2texts = {
   Educado: {
     start: "Fico por aqui caso queira tirar dúvidas sobre o meu processo. Espero que possamos trabalhar juntos. Você já ouviu falar sobre briefing?\n{/pre}"},
 
-  Coitado: {
+  Desleixado: {
     start: "Você é familiar com briefing? Qualquer coisa, estou aqui, é só mandar uma mensagem. Aguardo sua resposta para podermos dar início ao projeto.\n{/pre}"},
 };
 
