@@ -1,0 +1,118 @@
+body{
+    min-width: 391px;
+    min-height: 290px;
+    margin: 0;
+    padding: 0;
+}
+
+#bold{
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+
+#regular{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 13px;
+}
+
+.header {
+  position: relative;         
+  display: flex;
+  justify-content: center;     
+  align-items: center;
+  color: #F7F7F7;
+  background: #481F90;
+  margin: 0;
+  padding: 0;
+}
+
+.arrow {
+  position: absolute;          
+  left: 15px;                  
+  font-size: 28px;
+  cursor: pointer;
+}
+
+#back {
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#textbox {
+    font-family: "Lato", sans-serif;
+    width: 60px;
+    min-height: 15px;
+    resize: none;          
+    overflow: hidden;     
+    white-space: pre-wrap; 
+    padding: 4px 6px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#findBtn {
+    display: block;
+    margin: 0 auto;
+    max-width: 325px;
+}
+
+.nav {
+    margin-top: 6px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    justify-content: center;
+    max-width: 325px;
+    margin: 0 auto;
+}
+
+.nav button {
+    flex: 1;
+}
+
+#counter {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+mark.__mwf {
+    background: yellow;
+}
+
+mark.__mwf.__active {
+    background: orange;
+    outline: 2px solid red;
+}
